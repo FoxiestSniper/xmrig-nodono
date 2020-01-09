@@ -1,0 +1,27 @@
+﻿{
+	"configurations": [
+		{
+			"name": "x64-Release",
+			"generator": "Ninja",
+			"configurationType": "RelWithDebInfo",
+			"buildRoot": "${projectDir}\\out\\build\\${name}",
+			"installRoot": "${projectDir}\\out\\install\\${name}",
+			"cmakeCommandArgs": "",
+			"buildCommandArgs": "-v",
+			"ctestCommandArgs": "",
+			"inheritEnvironments": [ "msvc_x64_x64" ],
+			"variables": [
+				{
+					"name": "UV_INCLUDE_DIR",
+					"value": "C:/Users/dwrig/Documents/xmrig-deps-4.0/gcc/x64/include",
+					"type": "PATH"
+				},
+				{
+					"name": "UV_LIBRARY",
+					"value": "C:/Users/dwrig/Documents/xmrig-deps-4.0/gcc/x64/lib/libuv.a",
+					"type": "FILEPATH"
+				}
+			]
+		}
+	]
+}
